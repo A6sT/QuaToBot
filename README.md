@@ -27,8 +27,12 @@ Users can also decide to set their own channel where they can display their scor
 ### Why are some of my scores not registered ?
 The scores made on unranked / unsubmitted map or with specific mods cannot be tracked by the bot if you're not donator on Quaver
 
+### Why are my 7K scores not registered ?
+As of today, 7K score registration has already been implemented, but is not used. The way the bot retrieve scores can be an issue for Quaver's server, but there's no other way to do it for now. So, I decided to disable 7K scores for now to prevent further server issues.
+But rest assured, I've personnaly talked with Aiae. He said that he's working on the new API that, in short, will fix servers issue that would be caused by the bot. Once it'll be up, I will enable 7K score registration again
+
 ### How can I set a background image for my session's graph result ?
 Using the ``/edit-session`` command, you will be able to edit few settings regarding your sessions. One of them is about the background image used for the session's graph. The ideal dimensions for the picture used are 500x300 (automaticaly scaled). You can find a template for the background image in the resource folder !
 
-### How can i request new features for the bot ?
+### How can I request new features for the bot ?
 Simply open an issue describing what you want to add, and if this is doable and I like the idea, I will start working on it on my free time
